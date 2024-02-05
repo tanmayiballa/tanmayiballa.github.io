@@ -11559,6 +11559,47 @@ pre .code {
     margin-bottom: 20px; /* Add some spacing at the bottom for separation */
 }
 
+/* Degree Highlight */
+.degree {
+  font-weight: bold;
+  color: #007BFF; /* Highlight color for the degree */
+}
+
+/* Roles Highlight */
+.role {
+  font-weight: bold;
+  color: #28A745; /* Highlight color for the roles */
+}
+
+/* Research Interests Section */
+.research-interests {
+  color: gainsboro;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Bullet Points Styling */
+.bullet-points {
+  list-style-type: disc;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .right-column {
+      margin-top: 20px; /* Add space between the columns on smaller screens */
+  }
+}
+
+
+
 
 .header .header-content .header-subtitle {
   font-weight: 100;
