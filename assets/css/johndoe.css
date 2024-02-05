@@ -11351,6 +11351,36 @@ p {
   }
 }
 
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+}
+
+th {
+  font-weight: bold;
+}
+
+th:first-child,
+    td:first-child {
+      /* Adjust the width of the first column as needed */
+      width: 20%;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2) {
+      /* Adjust the width of the second column as needed */
+      width: 80%; /* Four times wider than the first column */
+    }
+
+
 .custom-map {
   height: 400px;
 }
