@@ -11508,7 +11508,8 @@ pre .code {
   min-height: 600px;
   /* background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),; */
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  background-color: peachpuff;
+  /* background-color: paleturquoise; */
+  background-color: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11532,13 +11533,40 @@ pre .code {
   color: #fff;
 }
 
+.header .summary {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  -webkit-transform: translateY(-70%);
+      -ms-transform: translateY(-70%);
+          transform: translateY(-60%);
+  color: #fff;
+  font-weight: 50px;
+  font-size: 300px;
+
+}
+
+.header .professional-summary{
+
+    font-family: 'Arial'; /* Choose a professional and widely supported font */
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line spacing for readability */
+    text-align: justify;
+
+    /* Additional Styling for a clean and professional look */
+    color: lightgrey; /* Set text color to a dark shade for readability */
+    margin-bottom: 20px; /* Add some spacing at the bottom for separation */
+}
+
+
 .header .header-content .header-subtitle {
-  font-weight: 200;
-  font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 100;
+  font-size: 100;
 }
 
 .header .header-content .header-title {
-  font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(30px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
   line-height: .7;
   margin-bottom: 25px;
