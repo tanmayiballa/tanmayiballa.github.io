@@ -51,52 +51,47 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <header class="header">
         <div class="container">
-            <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="mailto:tanmayiballa@gmail.com" target="_new"><i class="ti-email" aria-hidden="true"></i></a></li>
-                <!-- <li class="social-item"><a class="social-link text-light" href="https://instagram.com/kartheekjay?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_new"><i class="ti-instagram" aria-hidden="true"></i></a></li> -->
-                <li class="social-item"><a class="social-link text-light" href="https://github.com/tanmayiballa" target="_new"><i class="ti-github" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/" target="_new"><i class="ti-linkedin" aria-hidden="true"></i></a>
-                </li>
-                
-            </ul>  
-            <div class="col-lg-7 header-content">
-                <h4 class="header-subtitle">Hello, I am</h4>
-                <h1 class="header-title">Tanmayi</h1>
-                <h1 class="header-title">Balla</h1>
-                <h6 class="header-mono typewriter"> Aspiring Data Scientist </h6>
-                <!-- <a class="btn btn-primary btn-rounded" href="" target="_new"><i class="ti-printer pr-2"></i>Print Resume</a> -->
-            </div>
-
-        
-
-            <div class="col-lg-7 summary">
-                <p class="professional-summary">
-                    I am currently pursuing a <span class="degree">Master's degree in Data Science</span> at Indiana University Bloomington, with an expected graduation in May 2024. 
-                    I'm a part-time <span class="role">Marketing Data Analyst</span> at Indiana University Customer Relationship Management team.
-                  <div>
-                    <p class="research-interests"><strong>Research Interests (not limited to):</strong></p>
-                    <ul class="bullet-points">
-                      <li>Large Language Models</li>
-                      <li>2D/3D Object Detection Models</li>
-                      <li>Machine Unlearning</li>
+            <div class="row">
+                <div class="col-lg-7 col-md-12 header-content">
+                    <ul class="social-icons pt-3">
+                        <li class="social-item"><a class="social-link text-light" href="mailto:tanmayiballa@gmail.com" target="_new"><i class="ti-email" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://github.com/tanmayiballa" target="_new"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/" target="_new"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
                     </ul>
-                  </div>
-
-                  <div class="contact-section">
-                    <p class="contactS"><a href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/overlay/1706306840249/single-media-viewer/?type=DOCUMENT&profileId=ACoAADDtDVoBPlv6vHiOSqfmC_W3PBTqfoBDKr8">Checkout my resume</a></p>
-                    <p class="contactS">Email: tballa@iu.edu || Phone: 812-778-4651</p>
-                  </div>
-                
-                </p>
-              </div>                
-
-
+    
+                    <h4 class="header-subtitle">Hello, I am</h4>
+                    <h1 class="header-title">Tanmayi</h1>
+                    <h1 class="header-title">Balla</h1>
+                    <h6 class="header-mono typewriter"> Aspiring Data Scientist </h6>
+                </div>
+    
+                <div class="col-lg-5 col-md-12 summary">
+                    <p class="professional-summary">
+                        I am currently pursuing a <span class="degree">Master's degree in Data Science</span> at Indiana University Bloomington, with an expected graduation in May 2024. 
+                        I'm a part-time <span class="role">Marketing Data Analyst</span> at Indiana University Customer Relationship Management team.
+                    </p>
+    
+                    <div>
+                        <p class="research-interests"><strong>Research Interests (not limited to):</strong></p>
+                        <ul class="bullet-points">
+                            <li>Large Language Models</li>
+                            <li>2D/3D Object Detection Models</li>
+                            <li>Machine Unlearning</li>
+                        </ul>
+                    </div>
+    
+                    <div class="contact-section">
+                        <p class="contactS"><a href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/overlay/1706306840249/single-media-viewer/?type=DOCUMENT&profileId=ACoAADDtDVoBPlv6vHiOSqfmC_W3PBTqfoBDKr8">Checkout my resume</a></p>
+                        <p class="contactS">Email: tballa@iu.edu || Phone: 812-778-4651</p>
+                    </div>
+                </div>
+            </div>
+    
             <script>
                 // Typewriter effect for the header-mono element
                 const headerMono = document.querySelector('.header-mono');
                 const text = headerMono.innerText;          
-                function typewriter() 
-                {
+                function typewriter() {
                     let index = 0;
                     let typewriterInterval = setInterval(function () {
                         headerMono.innerText = text.substring(0, index);
@@ -109,10 +104,9 @@
                 }
                 typewriter();
             </script>
-</div>
-
+        </div>
     </header>
-
+    
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
