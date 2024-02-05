@@ -5085,6 +5085,7 @@ input[type="button"].btn-block {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
+  height: 100%;
 }
 
 .card-title {
@@ -11266,6 +11267,13 @@ p {
   color: #fff;
 }
 
+.subtitle1{  
+  font-weight: 500;
+  position: relative;
+  opacity: 1;
+  color: #fff;
+}
+
 .portfolio .portfolio-container .portfolio-item:hover .content-holder {
   opacity: 1;
   visibility: visible;
@@ -11537,22 +11545,19 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
-  min-height: 600px;
-  /* background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),; */
+  height: 70vh;
+  min-height: 100%;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  /* background-color: paleturquoise; */
   background-color: black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   color: #fff;
 }
 
+
 .header .container {
   position: relative;
-  height: 100%;
 }
 
 .header .header-content {
@@ -11577,6 +11582,8 @@ pre .code {
   color: #fff;
   font-weight: 50px;
   font-size: 300px;
+  margin-top: 300px;
+  margin-left: -100px;
 
 }
 
@@ -11591,6 +11598,14 @@ pre .code {
     color: lightgrey; /* Set text color to a dark shade for readability */
     margin-bottom: 20px; /* Add some spacing at the bottom for separation */
 }
+
+@media (max-width: 768px) {
+  .header {
+    height: 30vh; /* Adjust as needed for smaller screens */
+  }
+}
+
+
 
 /* Degree Highlight */
 .degree {
@@ -11625,9 +11640,12 @@ pre .code {
       flex-direction: column;
       text-align: center;
   }
+  .header {
+    height: 100vh; /* Adjust as needed for smaller screens */
+}
 
   .right-column {
-      margin-top: 20px; /* Add space between the columns on smaller screens */
+      margin-top: -5px; /* Add space between the columns on smaller screens */
   }
 }
 
@@ -11646,6 +11664,7 @@ pre .code {
 .header .header-content .header-subtitle {
   font-weight: 100;
   font-size: 100;
+  margin-top: 500px;
 }
 
 .header .header-content .header-title {
@@ -11663,36 +11682,12 @@ pre .code {
   margin-bottom: 40px;
 }
 
-@media (max-width: 767.98px) {
-  .header {
-    height: 500px;
-    min-height: 500px;
-  }
-  .header .social-icons {
-    margin: auto;
-  }
-  .header .header-content {
-    padding: 20px;
-  }
-  .header .header-content .header-mono {
-    letter-spacing: 2px;
-  }
-  .header .summary {
-    padding: 20px;
-  }
-  .header .professional-summary {
-    padding: 20px;
-  }
-  .header .research-interests {
-    padding: 20px;
-  }
-}
 
 .header-title {
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-weight: bold;
   opacity: .8;
-  color: #212529;
+  color: white;
 }
 
 .header-mini {
