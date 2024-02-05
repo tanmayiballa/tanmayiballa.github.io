@@ -49,15 +49,15 @@
     		</script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    <header class="header">
+    <!-- <header class="header">
+        <ul class="social-icons pt-3"  style="margin-left: 12%;">
+            <li class="social-item"><a class="social-link text-light" href="mailto:tanmayiballa@gmail.com" target="_new"><i class="ti-email" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a class="social-link text-light" href="https://github.com/tanmayiballa" target="_new"><i class="ti-github" aria-hidden="true"></i></a></li>
+            <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/" target="_new"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12 header-content">
-                    <ul class="social-icons pt-3">
-                        <li class="social-item"><a class="social-link text-light" href="mailto:tanmayiballa@gmail.com" target="_new"><i class="ti-email" aria-hidden="true"></i></a></li>
-                        <li class="social-item"><a class="social-link text-light" href="https://github.com/tanmayiballa" target="_new"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/" target="_new"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
-                    </ul>
     
                     <h4 class="header-subtitle">Hello, I am</h4>
                     <h1 class="header-title">Tanmayi</h1>
@@ -106,8 +106,66 @@
             </script>
         </div>
     </header>
-    
+     -->
 
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <!-- Social Icons -->
+                <div class="col-lg-12">
+                    <ul class="social-icons pt-3">
+                        <li class="social-item"><a class="social-link text-light" href="mailto:tanmayiballa@gmail.com" target="_new"><i class="ti-email" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://github.com/tanmayiballa" target="_new"><i class="ti-github" aria-hidden="true"></i></a></li>
+                        <li class="social-item"><a class="social-link text-light" href="https://www.linkedin.com/in/tanmayi-balla-24aa941aa/" target="_new"><i class="ti-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="row">
+                <!-- Header Content -->
+                <div class="col-lg-7 col-md-12 header-content">
+                    <h4 class="header-subtitle">Hello, I am</h4>
+                    <h1 class="header-title">Tanmayi</h1>
+                    <h1 class="header-title">Balla</h1>
+                    <h6 class="header-mono typewriter"> Aspiring Data Scientist </h6>
+                </div>
+    
+                <!-- Summary -->
+                <div class="col-lg-5 col-md-12 summary">
+                    <p class="professional-summary">
+                        I am currently pursuing a <span class="degree">Master's degree in Data Science</span> at Indiana University Bloomington, with an expected graduation in May 2024.
+                    </p>
+    
+                    <p class="professional-summary">
+                        I'm a part-time <span class="role">Marketing Data Analyst</span> at Indiana University Customer Relationship Management team.
+                    </p>
+    
+                    <!-- Additional content here -->
+                </div>
+            </div>
+    
+            <!-- Typewriter script and other content -->
+            <script>
+                // Typewriter effect for the header-mono element
+                const headerMono = document.querySelector('.header-mono');
+                const text = headerMono.innerText;
+                function typewriter() {
+                    let index = 0;
+                    let typewriterInterval = setInterval(function () {
+                        headerMono.innerText = text.substring(0, index);
+                        index++;
+                        if (index > text.length) {
+                            clearInterval(typewriterInterval);
+                            setTimeout(typewriter, 4000); // Wait 4 seconds before starting again
+                        }
+                    }, 100); // Adjust the delay as needed
+                }
+                typewriter();
+            </script>
+        </div>
+    </header>
+    
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
