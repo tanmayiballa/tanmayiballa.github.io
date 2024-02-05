@@ -11261,6 +11261,7 @@ p {
 
 .portfolio .portfolio-container .portfolio-item .content-holder .subtitle {
   font-weight: 500;
+  position: absolute;
   opacity: 1;
   color: #fff;
 }
