@@ -11599,7 +11599,16 @@ pre .code {
 }
 
 
+.contact-section {
+  margin-top: 5px; /* Adjusted margin for reduced spacing */
+  color: #fff; /* Adjusted font color to white for better visibility on black background */
+}
 
+.contactS{
+  margin-top: 5px;
+  color: whitesmoke;
+  font-size: 13px;
+}
 
 .header .header-content .header-subtitle {
   font-weight: 100;
@@ -11634,6 +11643,15 @@ pre .code {
   }
   .header .header-content .header-mono {
     letter-spacing: 2px;
+  }
+  .header .summary {
+    padding: 20px;
+  }
+  .header .professional-summary {
+    padding: 20px;
+  }
+  .header .research-interests {
+    padding: 20px;
   }
 }
 
