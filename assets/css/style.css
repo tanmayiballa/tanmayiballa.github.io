@@ -3,6 +3,7 @@
 \*-----------------------------------*/
 
 /* Ref:- https://github.com/codewithsadee/vcard-personal-portfolio */
+/* Ref:- https://github.com/srsawant34/srsawant34.github.io */
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -961,6 +962,7 @@ main {
 }
 
 .research-post-item > a {
+  text-align: justify;
   display: flex;
   position: relative;
   background: var(--border-gradient-onyx);
